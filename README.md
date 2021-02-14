@@ -12,6 +12,6 @@ I have used Rest Assured library to automate user journeys.
 1. Java
 2. Maven
 
-## Run Test Cases
+## Build & Run Test Cases
 
     mvn clean install
