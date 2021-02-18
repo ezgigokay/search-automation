@@ -8,7 +8,7 @@ public class AppTest {
 
     @Test
     void test_search_api() {
-        OMDBSearchApi api = new OMDBSearchApi("24155add");
+        SearchApi api = new OMDBSearchApi("24155add");
         //Querying Harry Potter movies on Omdb search api
         Response queryResponse = api.querySearch("Harry Potter");
         //Taking imdb id from response to filter by id
